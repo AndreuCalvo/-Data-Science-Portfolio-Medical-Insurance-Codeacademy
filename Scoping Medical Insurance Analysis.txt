@@ -1,0 +1,70 @@
+Scoping Medical Insurance Analysis
+
+Step 0: Problem Understanding
+- Problem
+Sexs can determine the final charge of the medical insurance
+- Impact
+Try to find some solutions to low the charge 
+
+Step 1: Define de goal(s)
+- Outcome
+How to affect the sex with the BMI
+Are the men more smoker than women?
+If somebody is smoker, its bmi is higher
+
+- Goal (measurable & achievable)
+Known the relation among different data, mainly sex, smoker and bmi
+	- Efficiency
+	- Effectiveness
+	- Equity
+	- Constraints
+	- Trade-offs
+
+Step 2: Define action(s)
+- Who will take it
+Andreu Calvo
+- Who is impacted
+Medical insurance users
+- Channels
+Local files using python, one time I solve the analysis I load the project as a github repository
+- Ethical implications
+NONE
+
+Step 3: Data
+- Information
+	- Granularity or detail
+	It is a data with on table with 7 variables, the rows are users of the medical insurance
+	- Frequency (update time)
+	NONE
+	- Hitory
+	NONE
+	- Identifiers
+	age,sex,bmi,children,smoker,region,charges
+	- Owner
+	Codeacademy
+	- Storage
+	CSV. file
+	- Ethics
+	NONE
+- Match data with the actions
+Correlation between bmi and sex
+Correlation between charges and sex
+Correlation between sex and smoker
+Correlation between bmi and smoker
+- Get external data sources
+NONE
+
+Step 4: Analysis
+- We apply statics methods
+	- Description (past/context)
+	- Detection (present/anomalies)
+- Validation
+	- What type of analysis needs to be done and what's the purpose?
+	Mainly we need to know the correlation among different variables to exrtact some conclusions
+	- How will the analysis inform the actions?
+	NONE
+	- How will the analysis be validated? What validation can be done using existing, historical data?
+	NONE
+	- What are the ethical issues associated with the analysis?
+	NONE
+
